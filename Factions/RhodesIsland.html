@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhodes Island</title>
+    <link rel="stylesheet" href="../styles/style_faction.css">
+    <script src="https://kit.fontawesome.com/55a88738ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        html{
+            background: url(../images/bridge.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-blend-mode: darken;
+        }
+    </style>
+    <input type="checkbox" id="check">
+    <nav>
+        <a href="index.html"><div class="logo">Faction Box</div></a>
+        <div class="search_box">
+            <input type="search" placeholder="Search..." id="searchBar">
+            <span class="fa-solid fa-magnifying-glass"></span>
+        </div>
+
+        <ol>
+            <li><a href="index.html">Factions</a></li>
+            <li><a href="#socials">Contact</a></li>
+            <li><a href="#socials">About</a></li>
+        </ol>
+
+        <label for="check" class="bar">
+            <span class="fa-solid fa-bars" id="bars"></span>
+            <span class="fa-solid fa-times" id="times"></span>
+            <span></span>
+        </label>
+    </nav>
+    <div class="searchResult">
+        <ul id="charactersList" class="listShow"></ul>
+    </div>
+    
+    <section id="grid">
+        <div class="faction_name">
+            <h3>Rhodes Island</h3>
+        </div>
+        <div class="faction_grid_5">
+            <ul class="operators_list">
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Lancet-2" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Lancet2.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Lancet-2</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Castle-3" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Castle3.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Castle-3</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Thermal-EX" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/THRMEX.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Thermal-Ex</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=12F" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/12f.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>12F</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Chestnut" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Chestnut.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Chestnut</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Myrrh" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Myrrh.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Myrrh</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Perfumer" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Perfumer.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Perfumer</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Dobermann" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Dobermann.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Dobermann</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Frostleaf" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Frostleaf.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Frostleaf</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Sussurro" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Sussurro.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Sussurro</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Myrtle" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Myrtle.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Myrtle</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Dur-nar" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Dur-nar.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Dur-Nar</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Ethan" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Ethan.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Ethan</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Podenco" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Podenco.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Podenco</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Click" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Click.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Click</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Gavial" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Gavial.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Gavial</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Warfarin" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Warfarin.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Warfarin</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Amiya" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Amiya.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Amiya</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Firewatch" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Firewatch.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Firewatch</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Meteorite" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Meteorite.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Meteorite</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Flamebringer" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Flamebringer.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Flamebringer</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=GreyThroat" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/GreyThroat.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>GreyThroat</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Elysium" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Elysium.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Elysium</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Folinic" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Folinic.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Folinic</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Lava_the_Purgatory" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Lava_Alter.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Lava The Purgatory</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Hibiscus_the_Purifier" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Hibiscus_Alter.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Hibiscus the Purifier</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Heavyrain" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Heavyrain.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Heavyrain</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Kroos_the_Keen_Glint" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Kroos_Alter.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Kroos The Keen Glint</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Greyy_the_Lightningbearer" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Greyy_Alter.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Greyy the Lightningbearer</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Quercus" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Quercus.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Quercus</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Ceobe" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Ceobe.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Ceobe</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Weedy" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Weedy.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Weedy</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Surtr" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Surtr.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Surtr</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Mudrock" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Mudrock.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Mudrock</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Kal%27tsit" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Kal'tsit.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Kal'tsit</span>
+                        </div>
+                    </div></a>
+                </li>
+                <li>
+                    <a href="https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname=Ch%27en_the_Holungday" target="_blank"><div class="card">
+                        <div class="card_image_container">
+                            <img src="../images/Ch'en_Alter.png" class="card_image">
+                        </div>
+                        <div class="card_faction">
+                            <span>Ch'en The Holungday</span>
+                        </div>
+                    </div></a>
+                </li>
+            </ul>
+        </div>     
+    </section>
+
+    <footer>
+
+        <div class="footer_content">
+            <h3>About</h3>            
+            <p>Faction Box is a resource, that provides information about your favourite operators factions </p>
+            <h3>Contact</h3>
+            <ul class="footer_socials" id="socials">
+                <li><i class="fa-brands fa-discord"></i>Nearl#0659</li>
+                <li><a href="https://twitter.com/NearlEnjoyer"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="mailto:j.rutkowski797@gmail.com"><i class="fa fa-envelope"></i>j.rutkowski797@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <p>copyright &copy;2022 Jakub Rutkowski. Site Made and maintained by <span>Jakub Rutkowski</span></p>
+        </div>
+    </footer>
+    <script src="../Scripts/operators.js"></script>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>
