@@ -13,6 +13,7 @@ html{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-blend-mode: darken;
+    scrollbar-color: auto;
 }
 body{
     min-height: 100vh;
@@ -393,4 +394,23 @@ text-align: center;
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+
+@media screen and (max-width:471px){
+    #grid ul{
+        gap: 0px;
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:359px){
+    #grid li{
+        max-width: none;
+        margin: 10px 10px;
+    }
+    .card{
+        grid-template-columns: 320px;
+        max-width: none;
+    }
 }

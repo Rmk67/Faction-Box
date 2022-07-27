@@ -448,3 +448,30 @@ text-align: center;
 .hide{
     display: none;
 }
+@media screen and (max-width:471px){
+    #grid ul{
+        gap: 0px;
+        margin: 0;
+        overflow: hidden;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+    #grid .faction_grid_1 ul{
+        margin: 24px 24px 0px;
+    }
+}
+
+@media screen and (max-width:359px){
+    #grid ul{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    #grid li{
+        max-width: none;
+    }
+    .card{
+        grid-template-columns: 320px;
+        max-width: none;
+    }
+    #grid .faction_grid_1 ul li .card{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
